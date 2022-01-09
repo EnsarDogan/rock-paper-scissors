@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+   
+body {
+   background-color: #333333;
+}
+   
+header {
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+.score-board {
+text-align: center;
+border: 4px solid white;
+width: 300px;
+margin: 30px auto;
+color: white;
+position: relative;
+font-size: 100px;
+padding: 0px 70px;
+}
+.badge {
+    background-color: red;
+}
+#user {
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    font-size: 20px;
+    
+}
+#comp {
+    position: absolute;
+    top: 40px;
+    right: -25px;
+    font-size: 20px;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.choices {
+    text-align: center;
+}
+
+
+.choice {
+display: inline-block;
+margin: 20px 30px;
+padding: 30px;
+border: 4px solid white;
+border-radius: 50%;
+
+}
+
+.choice:hover {
+    background-color:#020101;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#Rock img {
+    height: 120px;
+    width: auto;
+}
+#Paper img {
+    height: 120px;
+    width: auto;
+}
+#Scissors img {
+    height: 120px;
+    width: auto;
+}
+
+#action-messages {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.green-glow {
+    border: green 4px solid;
+    border-radius: 50%;
+    box-shadow: hsla(0, 0, 10px, darkgreen);
+
+}
+
+.red-glow {
+    border: red 4px solid;
+    border-radius: 50%;
+    box-shadow: hsla(0, 0, 10px, darkred);
+
+}
+
+.gray-glow {
+    border: gray 4px solid;
+    border-radius: 50%;
+    box-shadow: hsla(0, 0, 10px, darkgray);
+
+}
+
